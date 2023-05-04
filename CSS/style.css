@@ -155,22 +155,78 @@ hr {
 }
 
 /* Coupons */
-#page {
-    width: 100%;
-    height: 75vh;
-    background-color: #000764;
-    z-index: 5;
-}
+
 
 #coupon {
     width: 44%;
     height: 48vh;
     position: absolute;
-    background-color: #68d2ff;
+    background-color: rebeccapurple;
     top: 91px;
     left: 28%;
     z-index: 15;
+    display: flex;
 }
+
+#coupon .coicon {
+    width: 1.8em;
+    height: 1.8em;
+    font-size: 22px;
+}
+
+#coupon button {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+}
+
+#coupon p {
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+
+.cobox {
+    width: 80%;
+    height: 43vh;
+    background-color: rebeccapurple;
+    margin: auto;
+}
+
+#coupon .font-sl {
+    font-size: 16px;
+    line-height: 2em;
+}
+
+.cobutton {
+    display: flex;
+}
+
+.cobox-1 {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    height: 38vh;
+
+    padding: 30px;
+}
+
+.btn-co-1 {
+    background-color: transparent;
+    color: #fff;
+
+
+}
+
+.btn-co-2 {
+    background-color: #fff;
+    color: rebeccapurple;
+
+}
+
 
 /* Deals Section */
 .box {
