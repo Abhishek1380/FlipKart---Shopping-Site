@@ -161,7 +161,7 @@ hr {
     width: 44%;
     height: 48vh;
     position: absolute;
-    background-color: rebeccapurple;
+    background: linear-gradient(90.4deg, rgb(248, 52, 246) 0.6%, rgb(152, 38, 252) 90%);
     top: 91px;
     left: 28%;
     z-index: 15;
@@ -192,7 +192,7 @@ hr {
 .cobox {
     width: 80%;
     height: 43vh;
-    background-color: rebeccapurple;
+    background: linear-gradient(90.4deg, rgb(248, 52, 246) 0.6%, rgb(152, 38, 252) 90%);
     margin: auto;
 }
 
