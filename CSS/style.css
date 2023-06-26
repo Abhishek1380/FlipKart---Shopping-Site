@@ -6,6 +6,7 @@
 
 body {
     background-color: #f1f3f6;
+    /* color: #000; */
 }
 
 :root {
@@ -48,6 +49,10 @@ img {
 .navbar {
     height: 60px;
     background: var(--primary-color);
+}
+
+.nav span {
+    color: #ffc200;
 }
 
 .nav {
