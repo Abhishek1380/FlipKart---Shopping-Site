@@ -7,6 +7,7 @@
 body {
     background-color: #f1f3f6;
     /* color: #000; */
+    font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
 }
 
 :root {
@@ -377,7 +378,7 @@ h2 {
 
 .footer {
     background: #172337;
-    height: 48vh;
+    height: 44vh;
 }
 
 .section-1 {
@@ -398,6 +399,10 @@ h2 {
     margin-right: 40px;
 }
 
+.sec-2 a {
+    color: #2874f0;
+}
+
 .Footer-heading {
     color: #878787;
 }
@@ -407,7 +412,7 @@ h2 {
 }
 
 .footer a {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
 
 }
@@ -518,6 +523,10 @@ navbar span i {
     line-height: 39px;
 
     margin-left: 13px;
+}
+
+.fot-1 {
+    cursor: pointer;
 }
 
 /* span i {
